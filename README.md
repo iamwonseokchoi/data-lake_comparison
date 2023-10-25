@@ -1,7 +1,9 @@
 
-# Comparison Notebook
+# Comparison Notebook (Work In Progress)
 
 ## Overview
+
+Work in Progress
 
 This mini study performs various comparison operations, possibly involving big data processing using PySpark and Scala Spark. Comparison of Delta Lake and Iceberg datalake frameworks are included, with a focus on usage methods for both as well as performance when handling high and low cardinality data transformations and collations. 
 

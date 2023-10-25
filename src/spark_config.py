@@ -43,8 +43,8 @@ def create_spark_session(
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
         .config("spark.delta.logStore.class", "org.apache.spark.sql.delta.storage.S3SingleDriverLogStore")
         .config("spark.databricks.delta.schema.autoMerge.enabled", "true")
-        .config("spark.driver.memory", "6g")
-        .config("spark.executor.memory", "6g")
+        .config("spark.driver.memory", "2g")
+        .config("spark.executor.memory", "2g")
         .getOrCreate()
     )
     
