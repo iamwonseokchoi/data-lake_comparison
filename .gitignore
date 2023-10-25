@@ -1,0 +1,4 @@
+data/*
+config.toml
+.ipynb_checkpoints/*
+
